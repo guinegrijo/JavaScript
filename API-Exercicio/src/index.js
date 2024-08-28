@@ -32,7 +32,7 @@ class AppControllers{
             if(user_email){
                 const user_senha = users.find((user_senha) => user_senha.senha == senha)
                 if(user_senha){
-                    res.status(200).send({message:"Usuário logado"})
+                    res.status(200).send({menssage:"Usuário logado"})
                 } 
                 else {
                     res.status(400).send({menssage:"Usuário não encontrado"})
